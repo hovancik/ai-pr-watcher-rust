@@ -14,16 +14,16 @@ HEADERS = {"Accept": "application/vnd.github+json", "User-Agent": "PR-Watcher"}
 
 # Search queries - tracking merged PRs
 Q = {
-    "is:pr+head:copilot/": "copilot_total",
-    "is:pr+head:copilot/+is:merged": "copilot_merged",
-    "is:pr+head:codex/": "codex_total",
-    "is:pr+head:codex/+is:merged": "codex_merged",
-    "is:pr+head:cursor/": "cursor_total",
-    "is:pr+head:cursor/+is:merged": "cursor_merged",
-    "author:devin-ai-integration[bot]": "devin_total",
-    "author:devin-ai-integration[bot]+is:merged": "devin_merged",
-    "author:codegen-sh[bot]": "codegen_total",
-    "author:codegen-sh[bot]+is:merged": "codegen_merged",
+    "language:Rust+is:pr+head:copilot/": "copilot_total",
+    "language:Rust+is:pr+head:copilot/+is:merged": "copilot_merged",
+    "language:Rust+is:pr+head:codex/": "codex_total",
+    "language:Rust+is:pr+head:codex/+is:merged": "codex_merged",
+    "language:Rust+is:pr+head:cursor/": "cursor_total",
+    "language:Rust+is:pr+head:cursor/+is:merged": "cursor_merged",
+    "language:Rust+author:devin-ai-integration[bot]": "devin_total",
+    "language:Rust+author:devin-ai-integration[bot]+is:merged": "devin_merged",
+    "language:Rust+author:codegen-sh[bot]": "codegen_total",
+    "language:Rust+author:codegen-sh[bot]+is:merged": "codegen_merged",
 }
 
 
