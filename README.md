@@ -8,16 +8,16 @@ Forked from [https://github.com/aavetis/ai-pr-watcher](https://github.com/aaveti
 
 Explore the GitHub search queries used:
 
-- **All Copilot PRs**: [language:rust is:pr head:copilot/](https://github.com/search?q=is:pr+head:copilot/&type=pullrequests)
-- **Merged Copilot PRs**: [language:rust is:pr head:copilot/ is:merged](https://github.com/search?q=is:pr+head:copilot/+is:merged&type=pullrequests)
-- **All Codex PRs**: [language:rust is:pr head:codex/](https://github.com/search?q=is:pr+head:codex/&type=pullrequests)
-- **Merged Codex PRs**: [language:rust is:pr head:codex/ is:merged](https://github.com/search?q=is:pr+head:codex/+is:merged&type=pullrequests)
-- **All Cursor PRs**: [language:rust is:pr head:cursor/](https://github.com/search?q=is:pr+head:cursor/&type=pullrequests)
-- **Merged Cursor PRs**: [language:rust is:pr head:cursor/ is:merged](https://github.com/search?q=is:pr+head:cursor/+is:merged&type=pullrequests)
-- **All Devin PRs**: [language:rust author:devin-ai-integration[bot]](https://github.com/search?q=author:devin-ai-integration[bot]&type=pullrequests)
-- **Merged Devin PRs**: [language:rust author:devin-ai-integration[bot] is:merged](https://github.com/search?q=author:devin-ai-integration[bot]+is:merged&type=pullrequests)
-- **All Codegen PRs**: [language:rust author:codegen-sh[bot]](https://github.com/search?q=author:codegen-sh[bot]&type=pullrequests)
-- **Merged Codegen PRs**: [language:rust author:codegen-sh[bot] is:merged](https://github.com/search?q=author:codegen-sh[bot]+is:merged&type=pullrequests)
+- **All Copilot PRs**: [language:rust is:pr head:copilot/](https://github.com/search?q=language:Rust+is:pr+head:copilot/&type=pullrequests)
+- **Merged Copilot PRs**: [language:rust is:pr head:copilot/ is:merged](https://github.com/search?q=language:Rust+is:pr+head:copilot/+is:merged&type=pullrequests)
+- **All Codex PRs**: [language:rust is:pr head:codex/](https://github.com/search?q=language:Rust+is:pr+head:codex/&type=pullrequests)
+- **Merged Codex PRs**: [language:rust is:pr head:codex/ is:merged](https://github.com/search?q=language:Rust+is:pr+head:codex/+is:merged&type=pullrequests)
+- **All Cursor PRs**: [language:rust is:pr head:cursor/](https://github.com/search?q=language:Rust+is:pr+head:cursor/&type=pullrequests)
+- **Merged Cursor PRs**: [language:rust is:pr head:cursor/ is:merged](https://github.com/search?q=language:Rust+is:pr+head:cursor/+is:merged&type=pullrequests)
+- **All Devin PRs**: [language:rust author:devin-ai-integration[bot]](https://github.com/search?q=language:Rust+author:devin-ai-integration[bot]&type=pullrequests)
+- **Merged Devin PRs**: [language:rust author:devin-ai-integration[bot] is:merged](https://github.com/search?q=language:Rust+author:devin-ai-integration[bot]+is:merged&type=pullrequests)
+- **All Codegen PRs**: [language:rust author:codegen-sh[bot]](https://github.com/search?q=language:Rust+author:codegen-sh[bot]&type=pullrequests)
+- **Merged Codegen PRs**: [language:rust author:codegen-sh[bot] is:merged](https://github.com/search?q=language:Rust+author:codegen-sh[bot]+is:merged&type=pullrequests)
 
 ---
 
