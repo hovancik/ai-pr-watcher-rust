@@ -5,79 +5,203 @@
 
 import csv
 import datetime as dt
+import os
 import re
+import time
 from pathlib import Path
 import requests
 
-# Basic headers for GitHub public API
-HEADERS = {"Accept": "application/vnd.github+json", "User-Agent": "PR-Watcher"}
+# GitHub API headers with authentication
+def get_headers():
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": "PR-Watcher"}
+    token = os.getenv("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
 
-# Search queries - tracking merged PRs
-Q = {
-    "language:Rust+is:pr+head:copilot/": "copilot_total",
-    "language:Rust+is:pr+head:copilot/+is:merged": "copilot_merged",
-    "language:Rust+is:pr+head:codex/": "codex_total",
-    "language:Rust+is:pr+head:codex/+is:merged": "codex_merged",
-    "language:Rust+is:pr+head:cursor/": "cursor_total",
-    "language:Rust+is:pr+head:cursor/+is:merged": "cursor_merged",
-    "language:Rust+author:devin-ai-integration[bot]": "devin_total",
-    "language:Rust+author:devin-ai-integration[bot]+is:merged": "devin_merged",
-    "language:Rust+author:codegen-sh[bot]": "codegen_total",
-    "language:Rust+author:codegen-sh[bot]+is:merged": "codegen_merged",
+# Languages to track
+LANGUAGES = [
+    'all',  # All languages combined (no language filter)
+    'javascript', 'typescript', 'python', 'java', 'ruby', 'go', 'php', 
+    'c%23', 'c%2B%2B', 'rust', 'f%23'
+]
+
+# Agent search patterns
+AGENTS = {
+    'copilot': {
+        'total': 'is:pr+head:copilot/',
+        'merged': 'is:pr+head:copilot/+is:merged'
+    },
+    'codex': {
+        'total': 'is:pr+head:codex/',
+        'merged': 'is:pr+head:codex/+is:merged'
+    },
+    'cursor': {
+        'total': 'is:pr+head:cursor/',
+        'merged': 'is:pr+head:cursor/+is:merged'
+    },
+    'devin': {
+        'total': 'is:pr+author:devin-ai-integration[bot]',
+        'merged': 'is:pr+author:devin-ai-integration[bot]+is:merged'
+    },
+    'codegen': {
+        'total': 'is:pr+author:codegen-sh[bot]',
+        'merged': 'is:pr+author:codegen-sh[bot]+is:merged'
+    }
 }
 
 
+def make_github_request(url, headers, max_retries=3):
+    """Make a GitHub API request with rate limiting and retry logic."""
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=30)
+            
+            if response.status_code == 200:
+                return response
+            elif response.status_code == 403:
+                # Rate limit exceeded
+                print(f"    Rate limit hit (attempt {attempt + 1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    # Wait longer on each retry (exponential backoff)
+                    wait_time = 60 * (2 ** attempt)  # 60s, 120s, 240s
+                    print(f"    Waiting {wait_time} seconds...")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    print(f"    Max retries reached, giving up")
+                    return response
+            else:
+                # Other error, don't retry
+                print(f"    Request failed with {response.status_code}: {response.text}")
+                return response
+                
+        except Exception as e:
+            print(f"    Request exception (attempt {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(10)  # Wait 10 seconds before retry
+                continue
+            else:
+                raise
+    
+    return None
+
+
 def collect_data():
-    # Get data from GitHub API
-    cnt = {}
-    for query, key in Q.items():
-        r = requests.get(
-            f"https://api.github.com/search/issues?q={query}",
-            headers=HEADERS,
-            timeout=30,
-        )
-        r.raise_for_status()
-        cnt[key] = r.json()["total_count"]
-
-    # Save data to CSV
-    timestamp = dt.datetime.now(dt.UTC).strftime("%Y‑%m‑%d %H:%M:%S")
-    row = [
-        timestamp,
-        cnt["copilot_total"],
-        cnt["copilot_merged"],
-        cnt["codex_total"],
-        cnt["codex_merged"],
-        cnt["cursor_total"],
-        cnt["cursor_merged"],
-        cnt["devin_total"],
-        cnt["devin_merged"],
-        cnt["codegen_total"],
-        cnt["codegen_merged"],
-    ]
-
+    """Collect PR data for all languages and agents from GitHub API."""
+    headers = get_headers()
+    data = {}
+    timestamp = dt.datetime.now(dt.UTC).strftime("%Y-%m-%d %H:%M:%S")
+    
+    print(f"Collecting data at {timestamp}")
+    print("Note: Adding delays between requests to respect GitHub rate limits...")
+    
+    # Collect data for each language-agent combination
+    for language_idx, language in enumerate(LANGUAGES):
+        print(f"Processing language {language_idx + 1}/{len(LANGUAGES)}: {language}")
+        lang_data = {}
+        
+        for agent_idx, (agent, patterns) in enumerate(AGENTS.items()):
+            try:
+                # Add delay between requests to avoid rate limiting
+                if agent_idx > 0:  # Don't sleep before the first agent
+                    print(f"    Sleeping 2 seconds between requests...")
+                    time.sleep(2)
+                
+                # Get total PRs
+                if language == 'all':
+                    # For "all" languages, don't include language filter
+                    total_query = patterns['total']
+                else:
+                    # For specific languages, include language filter
+                    total_query = f"language:{language}+{patterns['total']}"
+                print(f"    Querying total: {total_query}")
+                
+                total_response = make_github_request(
+                    f"https://api.github.com/search/issues?q={total_query}",
+                    headers
+                )
+                
+                if total_response is None or total_response.status_code != 200:
+                    print(f"    Total query failed")
+                    lang_data[f"{agent}_total"] = 0
+                    lang_data[f"{agent}_merged"] = 0
+                    continue
+                
+                total_count = total_response.json()["total_count"]
+                
+                # Small delay between total and merged queries
+                time.sleep(1)
+                
+                # Get merged PRs
+                if language == 'all':
+                    # For "all" languages, don't include language filter
+                    merged_query = patterns['merged']
+                else:
+                    # For specific languages, include language filter
+                    merged_query = f"language:{language}+{patterns['merged']}"
+                print(f"    Querying merged: {merged_query}")
+                
+                merged_response = make_github_request(
+                    f"https://api.github.com/search/issues?q={merged_query}",
+                    headers
+                )
+                
+                if merged_response is None or merged_response.status_code != 200:
+                    print(f"    Merged query failed")
+                    lang_data[f"{agent}_total"] = total_count
+                    lang_data[f"{agent}_merged"] = 0
+                    continue
+                
+                merged_count = merged_response.json()["total_count"]
+                
+                lang_data[f"{agent}_total"] = total_count
+                lang_data[f"{agent}_merged"] = merged_count
+                
+                print(f"  ✓ {agent}: {total_count} total, {merged_count} merged")
+                
+            except Exception as e:
+                print(f"  ✗ Error collecting {agent} data for {language}: {e}")
+                lang_data[f"{agent}_total"] = 0
+                lang_data[f"{agent}_merged"] = 0
+        
+        data[language] = lang_data
+        
+        # Add a longer delay between languages to be extra safe
+        if language_idx < len(LANGUAGES) - 1:  # Don't sleep after the last language
+            print(f"  Sleeping 5 seconds before next language...")
+            time.sleep(5)
+    
+    # Save to CSV
     csv_file = Path("data.csv")
+    save_to_csv(data, timestamp, csv_file)
+    
+    return csv_file
+
+
+def save_to_csv(data, timestamp, csv_file):
+    """Save collected data to CSV file."""
+    # Prepare CSV headers
+    headers = ["timestamp", "language"]
+    for agent in AGENTS.keys():
+        headers.extend([f"{agent}_total", f"{agent}_merged"])
+    
+    # Check if file exists
     is_new_file = not csv_file.exists()
+    
     with csv_file.open("a", newline="") as f:
         writer = csv.writer(f)
+        
+        # Write headers if new file
         if is_new_file:
-            writer.writerow(
-                [
-                    "timestamp",
-                    "copilot_total",
-                    "copilot_merged",
-                    "codex_total",
-                    "codex_merged",
-                    "cursor_total",
-                    "cursor_merged",
-                    "devin_total",
-                    "devin_merged",
-                    "codegen_total",
-                    "codegen_merged",
-                ]
-            )
-        writer.writerow(row)
-
-    return csv_file
+            writer.writerow(headers)
+        
+        # Write data for each language
+        for language, lang_data in data.items():
+            row = [timestamp, language]
+            for agent in AGENTS.keys():
+                row.extend([lang_data[f"{agent}_total"], lang_data[f"{agent}_merged"]])
+            writer.writerow(row)
 
 
 def update_html_with_latest_data():
