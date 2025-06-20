@@ -20,6 +20,8 @@ jobs:
       - run: pip install --quiet matplotlib pandas requests numpy
 
       - name: Collect PR data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python collect_data.py
 
       - name: Generate chart
@@ -28,8 +30,8 @@ jobs:
       - name: Commit chart
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update PR‑approval chart"
-          file_pattern: "data.csv README.md docs/index.html docs/chart.png docs/chart-data.json"
+          commit_message: "chore: update data"
+          file_pattern: "data.csv docs/index.html docs/chart-data.json"
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'

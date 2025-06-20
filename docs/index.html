@@ -14,9 +14,9 @@
 <body>
   <div class="container">
     <header>
-      <h1>Rust AI Coding Agents</h1>
+      <h1>AI Coding Agents Analytics</h1>
       <p class="subtitle">
-        Tracking the performance of the various coding agents.
+        Tracking the performance of coding agents across programming languages.
       </p>
     </header>
 
@@ -26,6 +26,51 @@
         Click on each agent to learn more about them. Click on each metric to
         explore the queries live.
       </p>
+      <div class="chart-controls">
+        <div class="control-row">
+          <div class="control-section">
+            <span class="control-label">LANGUAGES</span>
+            <div class="toggle-buttons">
+              <button class="language-btn active" data-language="all">
+                <span class="language-icon">🌐</span>All
+              </button>
+              <button class="language-btn" data-language="javascript">
+                <span class="language-icon">📜</span>JavaScript
+              </button>
+              <button class="language-btn" data-language="typescript">
+                <span class="language-icon">📘</span>TypeScript
+              </button>
+              <button class="language-btn" data-language="python">
+                <span class="language-icon">🐍</span>Python
+              </button>
+              <button class="language-btn" data-language="java">
+                <span class="language-icon">☕</span>Java
+              </button>
+              <button class="language-btn" data-language="ruby">
+                <span class="language-icon">💎</span>Ruby
+              </button>
+              <button class="language-btn" data-language="go">
+                <span class="language-icon">🐹</span>Go
+              </button>
+              <button class="language-btn" data-language="php">
+                <span class="language-icon">🐘</span>PHP
+              </button>
+              <button class="language-btn" data-language="c%23">
+                <span class="language-icon">💜</span>C#
+              </button>
+              <button class="language-btn" data-language="c%2B%2B">
+                <span class="language-icon">⚡</span>C++
+              </button>
+              <button class="language-btn" data-language="rust">
+                <span class="language-icon">🦀</span>Rust
+              </button>
+              <button class="language-btn" data-language="f%23">
+                <span class="language-icon">🔹</span>F#
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="statistics">
@@ -50,17 +95,17 @@
             <td class="metric-cell">
               <a href="https://github.com/search?q=is:pr+head:copilot/&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="copilot-total">{{COPILOT_TOTAL}}</span>
+                <span id="copilot-total">Loading...</span>
               </a>
             </td>
             <td class="metric-cell">
               <a href="https://github.com/search?q=is:pr+head:copilot/+is:merged&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="copilot-merged">{{COPILOT_MERGED}}</span>
+                <span id="copilot-merged">Loading...</span>
               </a>
             </td>
             <td class="rate-cell">
-              <span id="copilot-rate">{{COPILOT_RATE}}</span>
+              <span id="copilot-rate">Loading...</span>
             </td>
           </tr>
           <tr data-agent="codex">
@@ -74,17 +119,17 @@
             <td class="metric-cell">
               <a href="https://github.com/search?q=is:pr+head:codex/&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="codex-total">{{CODEX_TOTAL}}</span>
+                <span id="codex-total">Loading...</span>
               </a>
             </td>
             <td class="metric-cell">
               <a href="https://github.com/search?q=is:pr+head:codex/+is:merged&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="codex-merged">{{CODEX_MERGED}}</span>
+                <span id="codex-merged">Loading...</span>
               </a>
             </td>
             <td class="rate-cell">
-              <span id="codex-rate">{{CODEX_RATE}}</span>
+              <span id="codex-rate">Loading...</span>
             </td>
           </tr>
           <tr data-agent="cursor">
@@ -97,17 +142,17 @@
             <td class="metric-cell">
               <a href="https://github.com/search?q=is:pr+head:cursor/&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="cursor-total">{{CURSOR_TOTAL}}</span>
+                <span id="cursor-total">Loading...</span>
               </a>
             </td>
             <td class="metric-cell">
               <a href="https://github.com/search?q=is:pr+head:cursor/+is:merged&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="cursor-merged">{{CURSOR_MERGED}}</span>
+                <span id="cursor-merged">Loading...</span>
               </a>
             </td>
             <td class="rate-cell">
-              <span id="cursor-rate">{{CURSOR_RATE}}</span>
+              <span id="cursor-rate">Loading...</span>
             </td>
           </tr>
           <tr data-agent="devin">
@@ -120,17 +165,17 @@
             <td class="metric-cell">
               <a href="https://github.com/search?q=author:devin-ai-integration[bot]&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="devin-total">{{DEVIN_TOTAL}}</span>
+                <span id="devin-total">Loading...</span>
               </a>
             </td>
             <td class="metric-cell">
               <a href="https://github.com/search?q=author:devin-ai-integration[bot]+is:merged&type=pullrequests"
                 target="_blank" class="metric-link">
-                <span id="devin-merged">{{DEVIN_MERGED}}</span>
+                <span id="devin-merged">Loading...</span>
               </a>
             </td>
             <td class="rate-cell">
-              <span id="devin-rate">{{DEVIN_RATE}}</span>
+              <span id="devin-rate">Loading...</span>
             </td>
           </tr>
           <tr data-agent="codegen">
@@ -143,17 +188,17 @@
             <td class="metric-cell">
               <a href="https://github.com/search?q=author:codegen-sh[bot]&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="codegen-total">{{CODEGEN_TOTAL}}</span>
+                <span id="codegen-total">Loading...</span>
               </a>
             </td>
             <td class="metric-cell">
               <a href="https://github.com/search?q=author:codegen-sh[bot]+is:merged&type=pullrequests" target="_blank"
                 class="metric-link">
-                <span id="codegen-merged">{{CODEGEN_MERGED}}</span>
+                <span id="codegen-merged">Loading...</span>
               </a>
             </td>
             <td class="rate-cell">
-              <span id="codegen-rate">{{CODEGEN_RATE}}</span>
+              <span id="codegen-rate">Loading...</span>
             </td>
           </tr>
         </tbody>
@@ -164,6 +209,47 @@
       <h2>Historic Chart</h2>
       <div class="chart-controls">
         <div class="control-row">
+          <div class="control-section">
+            <span class="control-label">LANGUAGES</span>
+            <div class="toggle-buttons">
+              <button id="toggleAllLanguages" class="language-btn active" data-language="all">
+                <span class="language-icon">🌐</span>All
+              </button>
+              <button id="toggleJavaScript" class="language-btn" data-language="javascript">
+                <span class="language-icon">📜</span>JavaScript
+              </button>
+              <button id="toggleTypeScript" class="language-btn" data-language="typescript">
+                <span class="language-icon">📘</span>TypeScript
+              </button>
+              <button id="togglePython" class="language-btn" data-language="python">
+                <span class="language-icon">🐍</span>Python
+              </button>
+              <button id="toggleJava" class="language-btn" data-language="java">
+                <span class="language-icon">☕</span>Java
+              </button>
+              <button id="toggleRuby" class="language-btn" data-language="ruby">
+                <span class="language-icon">💎</span>Ruby
+              </button>
+              <button id="toggleGo" class="language-btn" data-language="go">
+                <span class="language-icon">🐹</span>Go
+              </button>
+              <button id="togglePhp" class="language-btn" data-language="php">
+                <span class="language-icon">🐘</span>PHP
+              </button>
+              <button id="toggleCSharp" class="language-btn" data-language="c%23">
+                <span class="language-icon">💜</span>C#
+              </button>
+              <button id="toggleCpp" class="language-btn" data-language="c%2B%2B">
+                <span class="language-icon">⚡</span>C++
+              </button>
+              <button id="toggleRust" class="language-btn" data-language="rust">
+                <span class="language-icon">🦀</span>Rust
+              </button>
+              <button id="toggleFSharp" class="language-btn" data-language="f%23">
+                <span class="language-icon">🔹</span>F#
+              </button>
+            </div>
+          </div>
           <div class="control-section">
             <span class="control-label">AGENTS</span>
             <div class="toggle-buttons">
@@ -204,16 +290,15 @@
         <canvas id="prChart" width="800" height="400"></canvas>
       </div>
       <div class="chart-fallback">
-        <img src="chart.png" alt="PR Analytics Chart" class="chart-image" />
         <p>
-          <em>Interactive chart failed to load. Showing static version.</em>
+          <em>No data available</em>
         </p>
       </div>
     </section>
 
     <footer>
       <p>
-        Last updated: <span id="last-updated">June 20, 2025 00:43 UTC</span>
+        Last updated: <span id="last-updated">June 20, 2025 09:05 UTC</span>
       </p>
       <p>
         <a href="https://github.com/hovancik/ai-pr-watcher-rust">View on GitHub</a>
@@ -227,23 +312,35 @@
 
     async function loadChartData() {
       try {
-        const response = await fetch("chart-data.json");
-        chartData = await response.json();
-        initializeChart();
+        // Try to load real data from chart-data.json
+        const response = await fetch('chart-data.json');
+        if (response.ok) {
+          chartData = await response.json();
+          initializeChart();
+        } else {
+          throw new Error('Failed to fetch chart data');
+        }
       } catch (error) {
         console.error("Failed to load chart data:", error);
+        // Show fallback when no data is available
         showFallback();
       }
     }
 
     function showFallback() {
+      // Hide chart container and show fallback text
       document.querySelector(".chart-container").style.display = "none";
-      document.querySelector(".chart-controls").style.display = "none";
       document.querySelector(".chart-fallback").style.display = "block";
     }
 
     function initializeChart() {
       const ctx = document.getElementById("prChart").getContext("2d");
+
+      // Destroy existing chart instance if it exists
+      if (chartInstance) {
+        chartInstance.destroy();
+        chartInstance = null;
+      }
 
       chartInstance = new Chart(ctx, {
         type: "bar",
@@ -266,14 +363,22 @@
             },
             legend: {
               display: true,
-              position: "right",
+              position: "bottom", // Changed from "right" to "bottom" for more horizontal space
               labels: {
                 usePointStyle: true,
                 pointStyle: "rect",
                 font: {
-                  size: 11,
+                  size: 10,
                 },
+                padding: 15, // More padding for bottom layout
+                boxWidth: 12,
+                filter: function (legendItem, chartData) {
+                  // Only show legend items for datasets that are not hidden
+                  const dataset = chartData.datasets[legendItem.datasetIndex];
+                  return !dataset.hidden;
+                }
               },
+              maxHeight: 200, // Limit height and wrap to multiple rows
             },
             tooltip: {
               callbacks: {
@@ -333,7 +438,6 @@
       // Hide fallback and show interactive chart
       document.querySelector(".chart-fallback").style.display = "none";
       document.querySelector(".chart-container").style.display = "block";
-      document.querySelector(".chart-controls").style.display = "block";
 
       // Update statistics table with latest data
       updateStatisticsTable();
@@ -342,48 +446,169 @@
       setupToggleButtons();
     }
 
-    function updateStatisticsTable() {
+    function updateStatisticsTable(selectedLanguage = 'all') {
       if (!chartData || !chartData.datasets) return;
 
       // Get the latest data point (last index)
       const latestIndex = chartData.labels.length - 1;
-
       const agents = ["copilot", "codex", "cursor", "devin", "codegen"];
 
+      // Use selected language or default to "all"
       agents.forEach((agent) => {
-        // Find datasets for this agent
-        const totalDataset = chartData.datasets.find(
-          (d) =>
-            d.label.toLowerCase().includes(agent) &&
-            d.label.toLowerCase().includes("total")
+        const volumeDataset = chartData.datasets.find(
+          (d) => d.language === selectedLanguage && d.agent === agent && d.type === 'bar'
         );
-        const mergedDataset = chartData.datasets.find(
-          (d) =>
-            d.label.toLowerCase().includes(agent) &&
-            d.label.toLowerCase().includes("merged")
+        const successDataset = chartData.datasets.find(
+          (d) => d.language === selectedLanguage && d.agent === agent && d.type === 'line'
         );
 
-        if (totalDataset && mergedDataset) {
-          const total = totalDataset.data[latestIndex] || 0;
-          const merged = mergedDataset.data[latestIndex] || 0;
-          const rate = total > 0 ? (merged / total) * 100 : 0;
+        if (volumeDataset && successDataset) {
+          const totalVolume = volumeDataset.data[latestIndex] || 0;
+          const successRate = successDataset.data[latestIndex] || 0;
+          const totalMerged = Math.floor(totalVolume * (successRate / 100));
 
           // Update table cells
           const totalElement = document.getElementById(`${agent}-total`);
           const mergedElement = document.getElementById(`${agent}-merged`);
           const rateElement = document.getElementById(`${agent}-rate`);
 
-          if (totalElement) totalElement.textContent = total.toLocaleString();
-          if (mergedElement)
-            mergedElement.textContent = merged.toLocaleString();
-          if (rateElement) rateElement.textContent = rate.toFixed(1) + "%";
+          if (totalElement) totalElement.textContent = totalVolume.toLocaleString();
+          if (mergedElement) mergedElement.textContent = totalMerged.toLocaleString();
+          if (rateElement) rateElement.textContent = successRate.toFixed(1) + "%";
+
+          // Update the search links to include language filter
+          updateSearchLinks(agent, selectedLanguage);
+        } else {
+          // No data available for this agent/language combination
+          // Set loading text and update links for "all" languages
+          const totalElement = document.getElementById(`${agent}-total`);
+          const mergedElement = document.getElementById(`${agent}-merged`);
+          const rateElement = document.getElementById(`${agent}-rate`);
+
+          if (totalElement) totalElement.textContent = "Loading...";
+          if (mergedElement) mergedElement.textContent = "Loading...";
+          if (rateElement) rateElement.textContent = "Loading...";
+
+          // Update links to show "all" languages when no specific language data
+          updateSearchLinks(agent, 'all');
         }
       });
     }
 
+    function updateSearchLinks(agent, language) {
+      const row = document.querySelector(`tr[data-agent="${agent}"]`);
+      if (!row) return;
+
+      const metricCells = row.querySelectorAll('.metric-cell');
+      if (metricCells.length < 2) {
+        console.warn(`Not enough metric cells found for agent: ${agent}`);
+        return;
+      }
+
+      const totalLink = metricCells[0].querySelector('.metric-link');
+      const mergedLink = metricCells[1].querySelector('.metric-link');
+
+      // Check if links exist before updating
+      if (!totalLink || !mergedLink) {
+        console.warn(`Links not found for agent: ${agent}`);
+        return;
+      }
+
+      // Build language filter for search query
+      let languageFilter = '';
+      if (language !== 'all') {
+        // Decode URL-encoded language names
+        const decodedLanguage = decodeURIComponent(language);
+        languageFilter = `+language:${decodedLanguage}`;
+      }
+
+      // Update links based on agent type
+      if (agent === 'devin') {
+        // Devin uses author search
+        totalLink.href = `https://github.com/search?q=author:devin-ai-integration[bot]${languageFilter}&type=pullrequests`;
+        mergedLink.href = `https://github.com/search?q=author:devin-ai-integration[bot]+is:merged${languageFilter}&type=pullrequests`;
+      } else if (agent === 'codegen') {
+        // Codegen uses author search
+        totalLink.href = `https://github.com/search?q=author:codegen-sh[bot]${languageFilter}&type=pullrequests`;
+        mergedLink.href = `https://github.com/search?q=author:codegen-sh[bot]+is:merged${languageFilter}&type=pullrequests`;
+      } else {
+        // Copilot, Codex, Cursor use head branch search
+        totalLink.href = `https://github.com/search?q=is:pr+head:${agent}/${languageFilter}&type=pullrequests`;
+        mergedLink.href = `https://github.com/search?q=is:pr+head:${agent}/+is:merged${languageFilter}&type=pullrequests`;
+      }
+    }
+
     function setupToggleButtons() {
       const toggleButtons = document.querySelectorAll(".toggle-btn");
+      const chartLanguageButtons = document.querySelectorAll(".chart .language-btn");
       const viewButtons = document.querySelectorAll(".view-btn");
+      const agentsLanguageButtons = document.querySelectorAll(".data-sources .language-btn");
+
+      // Language filter functionality for agents table
+      agentsLanguageButtons.forEach((button) => {
+        button.addEventListener("click", function () {
+          const language = this.dataset.language;
+
+          // Update button states only within agents section
+          agentsLanguageButtons.forEach((btn) => btn.classList.remove("active"));
+          this.classList.add("active");
+
+          // Update statistics table with selected language
+          updateStatisticsTable(language);
+        });
+      });
+
+      // Language toggle functionality for chart
+      chartLanguageButtons.forEach((button) => {
+        button.addEventListener("click", function () {
+          const language = this.dataset.language;
+
+          // Simple toggle - just toggle the button state
+          this.classList.toggle("active");
+
+          // Get current view mode and active agents
+          const activeViewBtn = document.querySelector(".view-btn.active");
+          const currentView = activeViewBtn ? activeViewBtn.dataset.view : "all";
+          const activeAgents = Array.from(document.querySelectorAll(".toggle-btn.active"))
+            .map(btn => btn.dataset.agent);
+
+          // Get active languages (including "all" if selected) - only from chart section
+          const activeLanguages = Array.from(document.querySelectorAll(".chart .language-btn.active"))
+            .map(btn => btn.dataset.language);
+
+          // Update chart datasets
+          if (chartInstance && chartInstance.data && chartInstance.data.datasets) {
+            chartInstance.data.datasets.forEach((dataset) => {
+              const isLine = dataset.type === "line";
+              const isBar = dataset.type === "bar";
+              const agentEnabled = activeAgents.includes(dataset.agent);
+              const languageEnabled = activeLanguages.includes(dataset.language);
+
+              const shouldShow = languageEnabled && agentEnabled;
+
+              switch (currentView) {
+                case "all":
+                  dataset.hidden = !shouldShow;
+                  break;
+                case "bars":
+                  dataset.hidden = !shouldShow || isLine;
+                  break;
+                case "lines":
+                  dataset.hidden = !shouldShow || isBar;
+                  break;
+              }
+            });
+
+            // Force legend to refresh by updating chart options
+            chartInstance.options.plugins.legend.labels.filter = function (legendItem, chartData) {
+              const dataset = chartData.datasets[legendItem.datasetIndex];
+              return !dataset.hidden;
+            };
+            chartInstance.update('none');
+          }
+          // Note: Table is not updated here - it's controlled by the separate language filter buttons
+        });
+      });
 
       // Agent toggle functionality
       toggleButtons.forEach((button) => {
@@ -394,40 +619,52 @@
           // Toggle button state
           this.classList.toggle("active");
 
-          // Get current view mode
+          // Get current view mode and active languages
           const activeViewBtn = document.querySelector(".view-btn.active");
-          const currentView = activeViewBtn
-            ? activeViewBtn.dataset.view
-            : "all";
+          const currentView = activeViewBtn ? activeViewBtn.dataset.view : "all";
+
+          const activeLanguages = Array.from(document.querySelectorAll(".chart .language-btn.active"))
+            .map(btn => btn.dataset.language);
 
           // Find and toggle datasets for this agent
-          chartInstance.data.datasets.forEach((dataset, index) => {
-            const labelLower = dataset.label.toLowerCase();
-            if (labelLower.includes(agent)) {
-              const isLine = dataset.type === "line";
-              const isBar = dataset.type === "bar";
+          if (chartInstance && chartInstance.data && chartInstance.data.datasets) {
+            chartInstance.data.datasets.forEach((dataset) => {
+              if (dataset.agent === agent) {
+                const isLine = dataset.type === "line";
+                const isBar = dataset.type === "bar";
+                const languageEnabled = activeLanguages.includes(dataset.language);
 
-              if (isActive) {
-                // Was active, now hiding
-                dataset.hidden = true;
-              } else {
-                // Was hidden, now showing (but respect view mode)
-                switch (currentView) {
-                  case "all":
-                    dataset.hidden = false;
-                    break;
-                  case "bars":
-                    dataset.hidden = isLine;
-                    break;
-                  case "lines":
-                    dataset.hidden = isBar;
-                    break;
+                if (isActive) {
+                  // Was active, now hiding
+                  dataset.hidden = true;
+                } else {
+                  // Was hidden, now showing (but respect view mode and language selection)
+                  if (languageEnabled) {
+                    switch (currentView) {
+                      case "all":
+                        dataset.hidden = false;
+                        break;
+                      case "bars":
+                        dataset.hidden = isLine;
+                        break;
+                      case "lines":
+                        dataset.hidden = isBar;
+                        break;
+                    }
+                  } else {
+                    dataset.hidden = true;
+                  }
                 }
               }
-            }
-          });
+            });
 
-          chartInstance.update();
+            // Force legend to refresh  
+            chartInstance.options.plugins.legend.labels.filter = function (legendItem, chartData) {
+              const dataset = chartData.datasets[legendItem.datasetIndex];
+              return !dataset.hidden;
+            };
+            chartInstance.update();
+          }
         });
       });
 
@@ -440,38 +677,42 @@
           viewButtons.forEach((btn) => btn.classList.remove("active"));
           this.classList.add("active");
 
-          // Show/hide datasets based on view mode and agent toggles
-          chartInstance.data.datasets.forEach((dataset) => {
-            const isLine = dataset.type === "line";
-            const isBar = dataset.type === "bar";
+          // Get active languages and agents
+          const activeLanguages = Array.from(document.querySelectorAll(".chart .language-btn.active"))
+            .map(btn => btn.dataset.language);
+          const activeAgents = Array.from(document.querySelectorAll(".toggle-btn.active"))
+            .map(btn => btn.dataset.agent);
 
-            // Get the agent name from the dataset label
-            const agentMatch = dataset.label
-              .toLowerCase()
-              .match(/(copilot|codex|cursor|devin|codegen)/);
-            const agent = agentMatch ? agentMatch[1] : null;
+          // Show/hide datasets based on view mode, language, and agent toggles
+          if (chartInstance && chartInstance.data && chartInstance.data.datasets) {
+            chartInstance.data.datasets.forEach((dataset) => {
+              const isLine = dataset.type === "line";
+              const isBar = dataset.type === "bar";
+              const languageEnabled = activeLanguages.includes(dataset.language);
+              const agentEnabled = activeAgents.includes(dataset.agent);
 
-            // Check if agent is currently enabled
-            const agentButton = document.querySelector(
-              `.toggle-btn[data-agent="${agent}"]`
-            );
-            const agentEnabled =
-              agentButton && agentButton.classList.contains("active");
+              const shouldShow = languageEnabled && agentEnabled;
 
-            switch (view) {
-              case "all":
-                dataset.hidden = !agentEnabled;
-                break;
-              case "bars":
-                dataset.hidden = !agentEnabled || isLine;
-                break;
-              case "lines":
-                dataset.hidden = !agentEnabled || isBar;
-                break;
-            }
-          });
+              switch (view) {
+                case "all":
+                  dataset.hidden = !shouldShow;
+                  break;
+                case "bars":
+                  dataset.hidden = !shouldShow || isLine;
+                  break;
+                case "lines":
+                  dataset.hidden = !shouldShow || isBar;
+                  break;
+              }
+            });
 
-          chartInstance.update();
+            // Force legend to refresh
+            chartInstance.options.plugins.legend.labels.filter = function (legendItem, chartData) {
+              const dataset = chartData.datasets[legendItem.datasetIndex];
+              return !dataset.hidden;
+            };
+            chartInstance.update();
+          }
         });
       });
     }
