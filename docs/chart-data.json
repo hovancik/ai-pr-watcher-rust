@@ -11,7 +11,8 @@
     "Jun 17",
     "Jun 18",
     "Jun 19",
-    "Jun 20"
+    "Jun 20",
+    "Jun 21"
   ],
   "datasets": [
     {
@@ -28,7 +29,8 @@
         null,
         null,
         null,
-        null
+        null,
+        17281
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -53,7 +55,8 @@
         null,
         null,
         null,
-        null
+        null,
+        57.554539667843294
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -80,7 +83,8 @@
         null,
         null,
         null,
-        null
+        null,
+        420690
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -105,7 +109,8 @@
         null,
         null,
         null,
-        null
+        null,
+        85.52116760560033
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -132,7 +137,8 @@
         null,
         null,
         null,
-        null
+        null,
+        1733
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -157,7 +163,8 @@
         null,
         null,
         null,
-        null
+        null,
+        73.28332371609925
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -184,7 +191,8 @@
         null,
         null,
         null,
-        null
+        null,
+        28348
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -209,7 +217,8 @@
         null,
         null,
         null,
-        null
+        null,
+        63.77522223790039
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -236,7 +245,8 @@
         null,
         null,
         null,
-        null
+        null,
+        4008
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -261,7 +271,8 @@
         null,
         null,
         null,
-        null
+        null,
+        40.26946107784431
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -288,7 +299,8 @@
         null,
         null,
         null,
-        null
+        null,
+        1626
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -313,7 +325,8 @@
         null,
         null,
         null,
-        null
+        null,
+        70.97170971709717
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -340,7 +353,8 @@
         null,
         null,
         null,
-        null
+        null,
+        68995
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -365,7 +379,8 @@
         null,
         null,
         null,
-        null
+        null,
+        88.08029567359954
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -392,7 +407,8 @@
         null,
         null,
         null,
-        null
+        null,
+        124
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -417,7 +433,8 @@
         null,
         null,
         null,
-        null
+        null,
+        77.41935483870968
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -444,7 +461,8 @@
         null,
         null,
         null,
-        null
+        null,
+        2204
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -469,7 +487,8 @@
         null,
         null,
         null,
-        null
+        null,
+        61.206896551724135
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -496,7 +515,8 @@
         null,
         null,
         null,
-        null
+        null,
+        395
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -521,7 +541,8 @@
         null,
         null,
         null,
-        null
+        null,
+        38.48101265822785
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -548,7 +569,8 @@
         null,
         null,
         null,
-        null
+        null,
+        3751
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -573,7 +595,8 @@
         null,
         null,
         null,
-        null
+        null,
+        61.716875499866696
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -600,7 +623,8 @@
         null,
         null,
         null,
-        null
+        null,
+        71920
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -625,7 +649,8 @@
         null,
         null,
         null,
-        null
+        null,
+        83.71245828698554
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -652,7 +677,8 @@
         null,
         null,
         null,
-        null
+        null,
+        779
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -677,7 +703,8 @@
         null,
         null,
         null,
-        null
+        null,
+        74.96790757381258
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -704,7 +731,8 @@
         null,
         null,
         null,
-        null
+        null,
+        11386
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -729,7 +757,8 @@
         null,
         null,
         null,
-        null
+        null,
+        63.16529070788688
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -756,7 +785,8 @@
         null,
         null,
         null,
-        null
+        null,
+        891
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -781,7 +811,8 @@
         null,
         null,
         null,
-        null
+        null,
+        52.07631874298541
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -808,7 +839,8 @@
         null,
         null,
         null,
-        null
+        null,
+        2811
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -833,7 +865,8 @@
         null,
         null,
         null,
-        null
+        null,
+        65.13696193525436
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -860,7 +893,8 @@
         null,
         null,
         null,
-        null
+        null,
+        121123
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -885,7 +919,8 @@
         null,
         null,
         null,
-        null
+        null,
+        87.75542217415354
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -912,7 +947,8 @@
         null,
         null,
         null,
-        null
+        null,
+        291
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -937,7 +973,8 @@
         null,
         null,
         null,
-        null
+        null,
+        68.38487972508591
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -964,7 +1001,8 @@
         null,
         null,
         null,
-        null
+        null,
+        5497
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -989,7 +1027,8 @@
         null,
         null,
         null,
-        null
+        null,
+        65.30835000909588
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -1016,7 +1055,8 @@
         null,
         null,
         null,
-        null
+        null,
+        1935
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -1041,7 +1081,8 @@
         null,
         null,
         null,
-        null
+        null,
+        40.0
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -1068,7 +1109,8 @@
         null,
         null,
         null,
-        null
+        null,
+        422
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -1093,7 +1135,8 @@
         null,
         null,
         null,
-        null
+        null,
+        61.61137440758294
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -1120,7 +1163,8 @@
         null,
         null,
         null,
-        null
+        null,
+        10832
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -1145,7 +1189,8 @@
         null,
         null,
         null,
-        null
+        null,
+        83.67799113737075
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -1172,7 +1217,8 @@
         null,
         null,
         null,
-        null
+        null,
+        15
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -1197,7 +1243,8 @@
         null,
         null,
         null,
-        null
+        null,
+        66.66666666666666
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -1224,7 +1271,8 @@
         null,
         null,
         null,
-        null
+        null,
+        417
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -1249,7 +1297,8 @@
         null,
         null,
         null,
-        null
+        null,
+        62.589928057553955
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -1276,7 +1325,8 @@
         null,
         null,
         null,
-        null
+        null,
+        50
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -1301,7 +1351,8 @@
         null,
         null,
         null,
-        null
+        null,
+        10.0
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -1328,7 +1379,8 @@
         null,
         null,
         null,
-        null
+        null,
+        159
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -1353,7 +1405,8 @@
         null,
         null,
         null,
-        null
+        null,
+        57.23270440251572
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -1380,7 +1433,8 @@
         null,
         null,
         null,
-        null
+        null,
+        1120
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -1405,7 +1459,8 @@
         null,
         null,
         null,
-        null
+        null,
+        79.55357142857142
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -1432,7 +1487,8 @@
         null,
         null,
         null,
-        null
+        null,
+        12
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -1457,7 +1513,8 @@
         null,
         null,
         null,
-        null
+        null,
+        50.0
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -1484,7 +1541,8 @@
         null,
         null,
         null,
-        null
+        null,
+        396
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -1509,7 +1567,8 @@
         null,
         null,
         null,
-        null
+        null,
+        69.94949494949495
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -1536,7 +1595,8 @@
         null,
         null,
         null,
-        null
+        null,
+        9
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -1561,7 +1621,8 @@
         null,
         null,
         null,
-        null
+        null,
+        33.33333333333333
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -1588,7 +1649,8 @@
         null,
         null,
         null,
-        null
+        null,
+        697
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -1613,7 +1675,8 @@
         null,
         null,
         null,
-        null
+        null,
+        47.77618364418939
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -1640,7 +1703,8 @@
         null,
         null,
         null,
-        null
+        null,
+        8700
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -1665,7 +1729,8 @@
         null,
         null,
         null,
-        null
+        null,
+        84.43678160919539
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -1692,7 +1757,8 @@
         null,
         null,
         null,
-        null
+        null,
+        20
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -1717,7 +1783,8 @@
         null,
         null,
         null,
-        null
+        null,
+        60.0
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -1744,7 +1811,8 @@
         null,
         null,
         null,
-        null
+        null,
+        955
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -1769,7 +1837,8 @@
         null,
         null,
         null,
-        null
+        null,
+        63.97905759162303
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -1796,7 +1865,8 @@
         null,
         null,
         null,
-        null
+        null,
+        28
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -1821,7 +1891,8 @@
         null,
         null,
         null,
-        null
+        null,
+        21.428571428571427
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -1848,7 +1919,8 @@
         null,
         null,
         null,
-        null
+        null,
+        161
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -1873,7 +1945,8 @@
         null,
         null,
         null,
-        null
+        null,
+        77.63975155279503
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -1900,7 +1973,8 @@
         null,
         null,
         null,
-        null
+        null,
+        8480
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -1925,7 +1999,8 @@
         null,
         null,
         null,
-        null
+        null,
+        86.13207547169812
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -1952,7 +2027,8 @@
         null,
         null,
         null,
-        null
+        null,
+        34
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -1977,7 +2053,8 @@
         null,
         null,
         null,
-        null
+        null,
+        73.52941176470588
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -2004,7 +2081,8 @@
         null,
         null,
         null,
-        null
+        null,
+        389
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -2029,7 +2107,8 @@
         null,
         null,
         null,
-        null
+        null,
+        78.66323907455013
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -2056,7 +2135,8 @@
         null,
         null,
         null,
-        null
+        null,
+        20
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -2081,7 +2161,8 @@
         null,
         null,
         null,
-        null
+        null,
+        45.0
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -2108,7 +2189,8 @@
         null,
         null,
         null,
-        null
+        null,
+        2142
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -2133,7 +2215,8 @@
         null,
         null,
         null,
-        null
+        null,
+        55.08870214752568
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -2160,7 +2243,8 @@
         null,
         null,
         null,
-        null
+        null,
+        9860
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -2185,7 +2269,8 @@
         null,
         null,
         null,
-        null
+        null,
+        87.3529411764706
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -2212,7 +2297,8 @@
         null,
         null,
         null,
-        null
+        null,
+        10
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -2237,7 +2323,8 @@
         null,
         null,
         null,
-        null
+        null,
+        70.0
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -2264,7 +2351,8 @@
         null,
         null,
         null,
-        null
+        null,
+        223
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -2289,7 +2377,8 @@
         null,
         null,
         null,
-        null
+        null,
+        60.0896860986547
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -2316,7 +2405,8 @@
         null,
         null,
         null,
-        null
+        null,
+        5
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -2341,7 +2431,8 @@
         null,
         null,
         null,
-        null
+        null,
+        0.0
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -2368,7 +2459,8 @@
         null,
         null,
         null,
-        null
+        null,
+        360
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -2393,7 +2485,8 @@
         null,
         null,
         null,
-        null
+        null,
+        42.22222222222222
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -2420,7 +2513,8 @@
         null,
         null,
         null,
-        null
+        null,
+        8137
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -2445,7 +2539,8 @@
         null,
         null,
         null,
-        null
+        null,
+        80.11552169104093
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -2472,7 +2567,8 @@
         null,
         null,
         null,
-        null
+        null,
+        33
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -2497,7 +2593,8 @@
         null,
         null,
         null,
-        null
+        null,
+        90.9090909090909
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -2524,7 +2621,8 @@
         null,
         null,
         null,
-        null
+        null,
+        783
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -2549,7 +2647,8 @@
         null,
         null,
         null,
-        null
+        null,
+        55.81098339719029
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -2576,7 +2675,8 @@
         null,
         null,
         null,
-        null
+        null,
+        17
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -2601,7 +2701,8 @@
         null,
         null,
         null,
-        null
+        null,
+        29.411764705882355
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -2628,7 +2729,8 @@
         402,
         422,
         454,
-        516
+        516,
+        529
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -2653,7 +2755,8 @@
         66.91542288557214,
         67.53554502369668,
         66.51982378854625,
-        68.9922480620155
+        68.9922480620155,
+        68.43100189035917
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -2680,7 +2783,8 @@
         8692,
         8995,
         9333,
-        9693
+        9693,
+        9970
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -2705,7 +2809,8 @@
         86.25172572480442,
         86.23679822123403,
         86.36022715096968,
-        86.32002476013618
+        86.32002476013618,
+        86.35907723169508
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -2732,7 +2837,8 @@
         44,
         45,
         47,
-        54
+        54,
+        64
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -2757,7 +2863,8 @@
         63.63636363636363,
         62.22222222222222,
         63.829787234042556,
-        62.96296296296296
+        62.96296296296296,
+        70.3125
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -2784,7 +2891,8 @@
         968,
         972,
         980,
-        991
+        991,
+        963
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -2809,7 +2917,8 @@
         67.04545454545455,
         66.8724279835391,
         66.42857142857143,
-        66.39757820383451
+        66.39757820383451,
+        69.26272066458982
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -2836,7 +2945,8 @@
         25,
         30,
         30,
-        30
+        30,
+        34
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -2861,7 +2971,8 @@
         48.0,
         43.333333333333336,
         46.666666666666664,
-        46.666666666666664
+        46.666666666666664,
+        44.11764705882353
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -2888,7 +2999,8 @@
         null,
         null,
         null,
-        null
+        null,
+        19
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -2913,7 +3025,8 @@
         null,
         null,
         null,
-        null
+        null,
+        21.052631578947366
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -2940,7 +3053,8 @@
         null,
         null,
         null,
-        null
+        null,
+        45
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -2965,7 +3079,8 @@
         null,
         null,
         null,
-        null
+        null,
+        80.0
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -2992,7 +3107,8 @@
         null,
         null,
         null,
-        null
+        null,
+        0
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -3017,7 +3133,8 @@
         null,
         null,
         null,
-        null
+        null,
+        0
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -3044,7 +3161,8 @@
         null,
         null,
         null,
-        null
+        null,
+        0
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -3069,7 +3187,8 @@
         null,
         null,
         null,
-        null
+        null,
+        0
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -3096,7 +3215,8 @@
         null,
         null,
         null,
-        null
+        null,
+        0
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -3121,7 +3241,8 @@
         null,
         null,
         null,
-        null
+        null,
+        0
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
