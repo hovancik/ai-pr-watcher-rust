@@ -1,6 +1,5 @@
 {
   "labels": [
-    "Jun 11",
     "Jun 12",
     "Jun 13",
     "Jun 14",
@@ -29,13 +28,13 @@
     "Jul 07",
     "Jul 08",
     "Jul 09",
-    "Jul 10"
+    "Jul 10",
+    "Jul 11"
   ],
   "datasets": [
     {
       "label": "All Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -64,7 +63,8 @@
         27619,
         28777,
         30069,
-        31334
+        31334,
+        32545
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -78,7 +78,6 @@
     {
       "label": "All Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -107,7 +106,8 @@
         57.52923711937434,
         57.361781978663515,
         56.89580631214872,
-        56.481776983468436
+        56.481776983468436,
+        56.18374558303887
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -123,7 +123,6 @@
     {
       "label": "All Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -152,7 +151,8 @@
         622550,
         635441,
         646924,
-        658686
+        658686,
+        669661
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -166,7 +166,6 @@
     {
       "label": "All Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -195,7 +194,8 @@
         86.58678017829892,
         86.64801295478259,
         86.75609499724852,
-        86.84486993802814
+        86.84486993802814,
+        86.88679794702095
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -211,7 +211,6 @@
     {
       "label": "All Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -240,7 +239,8 @@
         9567,
         10545,
         11523,
-        12630
+        12630,
+        13784
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -254,7 +254,6 @@
     {
       "label": "All Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -283,7 +282,8 @@
         74.67335632904776,
         75.18255097202466,
         75.42306690965894,
-        75.74821852731591
+        75.74821852731591,
+        76.00116076610563
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -299,7 +299,6 @@
     {
       "label": "All Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -328,7 +327,8 @@
         30203,
         30354,
         30455,
-        30580
+        30580,
+        30626
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -342,7 +342,6 @@
     {
       "label": "All Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -371,7 +370,8 @@
         63.98371022746085,
         63.968504974632665,
         63.97635856181251,
-        63.989535644211905
+        63.989535644211905,
+        63.772611506563045
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -387,7 +387,6 @@
     {
       "label": "All Codegen Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -416,7 +415,8 @@
         4176,
         4215,
         4243,
-        4282
+        4282,
+        4313
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -430,7 +430,6 @@
     {
       "label": "All Codegen Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -459,7 +458,8 @@
         40.63697318007663,
         40.78291814946619,
         40.72590148479849,
-        40.89210649229332
+        40.89210649229332,
+        40.830048690006954
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -475,7 +475,6 @@
     {
       "label": "Javascript Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -504,7 +503,8 @@
         2780,
         2899,
         3051,
-        3183
+        3183,
+        3345
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -518,7 +518,6 @@
     {
       "label": "Javascript Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -547,7 +546,8 @@
         67.01438848920863,
         66.64367023111419,
         66.04392002622092,
-        65.53565818410306
+        65.53565818410306,
+        64.84304932735427
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -563,7 +563,6 @@
     {
       "label": "Javascript Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -592,7 +591,8 @@
         106090,
         108331,
         110179,
-        112102
+        112102,
+        113520
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -606,7 +606,6 @@
     {
       "label": "Javascript Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -635,7 +634,8 @@
         89.38448487133566,
         89.41023345118204,
         89.44717232866518,
-        89.49795721753404
+        89.49795721753404,
+        89.4529598308668
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -651,7 +651,6 @@
     {
       "label": "Javascript Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -680,7 +679,8 @@
         1050,
         1198,
         1351,
-        1487
+        1487,
+        1657
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -694,7 +694,6 @@
     {
       "label": "Javascript Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -723,7 +722,8 @@
         80.47619047619048,
         80.13355592654425,
         80.16284233900815,
-        80.56489576328177
+        80.56489576328177,
+        80.26554013277007
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -739,7 +739,6 @@
     {
       "label": "Javascript Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -768,7 +767,8 @@
         2347,
         2361,
         2368,
-        2377
+        2377,
+        2384
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -782,7 +782,6 @@
     {
       "label": "Javascript Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -811,7 +810,8 @@
         61.6105666808692,
         61.795849216433716,
         61.6554054054054,
-        61.67437946992007
+        61.67437946992007,
+        61.66107382550335
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -827,7 +827,6 @@
     {
       "label": "Javascript Codegen Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -856,7 +855,8 @@
         398,
         408,
         408,
-        408
+        408,
+        412
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -870,7 +870,6 @@
     {
       "label": "Javascript Codegen Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -899,7 +898,8 @@
         37.93969849246231,
         38.48039215686275,
         38.48039215686275,
-        38.48039215686275
+        38.48039215686275,
+        38.349514563106794
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -915,7 +915,6 @@
     {
       "label": "Typescript Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -944,7 +943,8 @@
         5987,
         6209,
         6418,
-        6715
+        6715,
+        6961
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -958,7 +958,6 @@
     {
       "label": "Typescript Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -987,7 +986,8 @@
         58.24285952897945,
         58.20583024641649,
         57.71268307884077,
-        57.73641102010424
+        57.73641102010424,
+        57.16132739548916
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -1003,7 +1003,6 @@
     {
       "label": "Typescript Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1032,7 +1031,8 @@
         107545,
         109444,
         111135,
-        112564
+        112564,
+        114912
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -1046,7 +1046,6 @@
     {
       "label": "Typescript Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1075,7 +1074,8 @@
         85.18108698684271,
         85.21892474690253,
         85.24587213749044,
-        85.2572758608436
+        85.2572758608436,
+        85.34443748259538
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -1091,7 +1091,6 @@
     {
       "label": "Typescript Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1120,7 +1119,8 @@
         3326,
         3589,
         3866,
-        4216
+        4216,
+        4592
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -1134,7 +1134,6 @@
     {
       "label": "Typescript Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1163,7 +1162,8 @@
         73.42152736019241,
         74.28252995263304,
         74.46973616140714,
-        74.62049335863378
+        74.62049335863378,
+        75.78397212543554
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -1179,7 +1179,6 @@
     {
       "label": "Typescript Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1208,7 +1207,8 @@
         12416,
         12487,
         12523,
-        12582
+        12582,
+        12542
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -1222,7 +1222,6 @@
     {
       "label": "Typescript Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1251,7 +1250,8 @@
         63.82893041237113,
         63.850404420597414,
         63.882456280443975,
-        63.94054999205214
+        63.94054999205214,
+        63.538510604369314
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -1267,7 +1267,6 @@
     {
       "label": "Typescript Codegen Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1296,7 +1295,8 @@
         998,
         1000,
         1003,
-        1020
+        1020,
+        1028
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -1310,7 +1310,6 @@
     {
       "label": "Typescript Codegen Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1339,7 +1338,8 @@
         52.90581162324649,
         52.800000000000004,
         52.94117647058824,
-        53.23529411764706
+        53.23529411764706,
+        53.11284046692607
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -1355,7 +1355,6 @@
     {
       "label": "Python Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1384,7 +1383,8 @@
         4344,
         4590,
         4759,
-        4930
+        4930,
+        5045
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -1398,7 +1398,6 @@
     {
       "label": "Python Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1427,7 +1426,8 @@
         59.69152854511971,
         59.93464052287582,
         59.865517965959235,
-        59.087221095334684
+        59.087221095334684,
+        58.27552031714569
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -1443,7 +1443,6 @@
     {
       "label": "Python Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1472,7 +1471,8 @@
         174018,
         178162,
         181481,
-        185468
+        185468,
+        188603
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -1486,7 +1486,6 @@
     {
       "label": "Python Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1515,7 +1514,8 @@
         88.3874081991518,
         88.49586331540958,
         88.73050071357332,
-        88.85683783725494
+        88.85683783725494,
+        88.90261554694251
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -1531,7 +1531,6 @@
     {
       "label": "Python Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1560,7 +1559,8 @@
         1599,
         1762,
         1922,
-        2137
+        2137,
+        2308
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -1574,7 +1574,6 @@
     {
       "label": "Python Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1603,7 +1602,8 @@
         73.17073170731707,
         73.49602724177072,
         73.98543184183143,
-        74.4501637810014
+        74.4501637810014,
+        74.00346620450607
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -1619,7 +1619,6 @@
     {
       "label": "Python Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1648,7 +1647,8 @@
         5735,
         5761,
         5781,
-        5814
+        5814,
+        5863
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -1662,7 +1662,6 @@
     {
       "label": "Python Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1691,7 +1690,8 @@
         64.95204882301657,
         64.86721055372331,
         64.86766995329528,
-        64.86068111455108
+        64.86068111455108,
+        64.69384274262323
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -1707,7 +1707,6 @@
     {
       "label": "Python Codegen Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1736,7 +1735,8 @@
         1932,
         1956,
         1978,
-        1991
+        1991,
+        2003
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -1750,7 +1750,6 @@
     {
       "label": "Python Codegen Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1779,7 +1778,8 @@
         40.21739130434783,
         40.33742331288344,
         40.141557128412536,
-        40.18081366147664
+        40.18081366147664,
+        40.0399400898652
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -1795,7 +1795,6 @@
     {
       "label": "Java Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1824,7 +1823,8 @@
         795,
         844,
         895,
-        957
+        957,
+        1020
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -1838,7 +1838,6 @@
     {
       "label": "Java Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1867,7 +1866,8 @@
         48.301886792452834,
         48.1042654028436,
         47.486033519553075,
-        47.12643678160919
+        47.12643678160919,
+        47.647058823529406
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -1883,7 +1883,6 @@
     {
       "label": "Java Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1912,7 +1911,8 @@
         15223,
         15428,
         15810,
-        16225
+        16225,
+        16591
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -1926,7 +1926,6 @@
     {
       "label": "Java Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -1955,7 +1954,8 @@
         84.6219536228076,
         84.75499092558984,
         84.93991144845035,
-        85.19568567026195
+        85.19568567026195,
+        85.39569646193719
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -1971,7 +1971,6 @@
     {
       "label": "Java Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2000,7 +1999,8 @@
         142,
         179,
         207,
-        230
+        230,
+        242
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -2014,7 +2014,6 @@
     {
       "label": "Java Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2043,7 +2042,8 @@
         71.83098591549296,
         75.41899441340783,
         76.81159420289855,
-        75.65217391304347
+        75.65217391304347,
+        76.03305785123968
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -2059,7 +2059,6 @@
     {
       "label": "Java Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2088,7 +2087,8 @@
         454,
         450,
         453,
-        453
+        453,
+        454
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -2102,7 +2102,6 @@
     {
       "label": "Java Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2131,7 +2130,8 @@
         61.23348017621145,
         60.66666666666667,
         60.264900662251655,
-        60.264900662251655
+        60.264900662251655,
+        60.13215859030837
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -2147,7 +2147,6 @@
     {
       "label": "Java Codegen Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2176,6 +2175,7 @@
         57,
         57,
         58,
+        59,
         59
       ],
       "backgroundColor": "#daa52080",
@@ -2190,7 +2190,6 @@
     {
       "label": "Java Codegen Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2219,6 +2218,7 @@
         8.771929824561402,
         8.771929824561402,
         10.344827586206897,
+        10.16949152542373,
         10.16949152542373
       ],
       "backgroundColor": "#daa520",
@@ -2235,7 +2235,6 @@
     {
       "label": "Ruby Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2264,7 +2263,8 @@
         246,
         252,
         264,
-        278
+        278,
+        280
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -2278,7 +2278,6 @@
     {
       "label": "Ruby Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2307,7 +2306,8 @@
         55.6910569105691,
         55.55555555555556,
         54.54545454545454,
-        53.597122302158276
+        53.597122302158276,
+        53.92857142857142
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -2323,7 +2323,6 @@
     {
       "label": "Ruby Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2352,7 +2351,8 @@
         1432,
         1448,
         1500,
-        1516
+        1516,
+        1523
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -2366,7 +2366,6 @@
     {
       "label": "Ruby Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2395,7 +2394,8 @@
         78.9804469273743,
         79.14364640883977,
         79.06666666666666,
-        79.41952506596306
+        79.41952506596306,
+        79.31713722915299
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -2411,7 +2411,6 @@
     {
       "label": "Ruby Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2440,7 +2439,8 @@
         39,
         37,
         43,
-        46
+        46,
+        47
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -2454,7 +2454,6 @@
     {
       "label": "Ruby Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2483,7 +2482,8 @@
         53.84615384615385,
         51.35135135135135,
         53.48837209302325,
-        52.17391304347826
+        52.17391304347826,
+        53.191489361702125
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -2499,7 +2499,6 @@
     {
       "label": "Ruby Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2528,7 +2527,8 @@
         453,
         455,
         458,
-        462
+        462,
+        464
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -2542,7 +2542,6 @@
     {
       "label": "Ruby Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2571,7 +2570,8 @@
         71.08167770419426,
         71.42857142857143,
         71.17903930131004,
-        71.21212121212122
+        71.21212121212122,
+        71.33620689655173
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -2596,9 +2596,9 @@
         null,
         null,
         null,
-        null,
         9,
         9,
+        10,
         10,
         10,
         10,
@@ -2639,9 +2639,9 @@
         null,
         null,
         null,
-        null,
         33.33333333333333,
         33.33333333333333,
+        30.0,
         30.0,
         30.0,
         30.0,
@@ -2684,7 +2684,6 @@
         null,
         null,
         null,
-        null,
         697,
         713,
         719,
@@ -2704,7 +2703,8 @@
         1266,
         1316,
         1383,
-        1461
+        1461,
+        1493
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -2718,7 +2718,6 @@
     {
       "label": "Go Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2747,7 +2746,8 @@
         47.39336492890995,
         46.808510638297875,
         45.770065075921906,
-        44.49007529089665
+        44.49007529089665,
+        44.40723375753517
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -2763,7 +2763,6 @@
     {
       "label": "Go Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2792,7 +2791,8 @@
         14099,
         14584,
         15016,
-        15391
+        15391,
+        15673
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -2806,7 +2806,6 @@
     {
       "label": "Go Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2835,7 +2834,8 @@
         84.38896375629477,
         84.55156335710367,
         84.62972828982419,
-        84.75082840621143
+        84.75082840621143,
+        84.78912779940025
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -2851,7 +2851,6 @@
     {
       "label": "Go Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2880,7 +2879,8 @@
         248,
         272,
         281,
-        297
+        297,
+        322
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -2894,7 +2894,6 @@
     {
       "label": "Go Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2923,7 +2922,8 @@
         66.53225806451613,
         67.64705882352942,
         67.97153024911033,
-        69.36026936026936
+        69.36026936026936,
+        69.87577639751554
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -2939,7 +2939,6 @@
     {
       "label": "Go Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -2968,7 +2967,8 @@
         988,
         990,
         1001,
-        1001
+        1001,
+        1004
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -2982,7 +2982,6 @@
     {
       "label": "Go Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3011,7 +3010,8 @@
         64.06882591093117,
         64.04040404040404,
         64.03596403596403,
-        64.03596403596403
+        64.03596403596403,
+        64.14342629482071
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -3036,7 +3036,6 @@
         null,
         null,
         null,
-        null,
         28,
         28,
         28,
@@ -3056,7 +3055,8 @@
         21,
         21,
         21,
-        21
+        21,
+        23
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -3079,7 +3079,6 @@
         null,
         null,
         null,
-        null,
         21.428571428571427,
         21.428571428571427,
         21.428571428571427,
@@ -3099,7 +3098,8 @@
         0.0,
         0.0,
         0.0,
-        0.0
+        0.0,
+        8.695652173913043
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -3115,7 +3115,6 @@
     {
       "label": "Php Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3144,7 +3143,8 @@
         388,
         393,
         421,
-        453
+        453,
+        487
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -3158,7 +3158,6 @@
     {
       "label": "Php Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3187,7 +3186,8 @@
         56.70103092783505,
         54.4529262086514,
         52.25653206650831,
-        51.434878587196465
+        51.434878587196465,
+        51.54004106776181
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -3203,7 +3203,6 @@
     {
       "label": "Php Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3232,7 +3231,8 @@
         15852,
         16546,
         16521,
-        17027
+        17027,
+        17245
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -3246,7 +3246,6 @@
     {
       "label": "Php Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3275,7 +3274,8 @@
         88.63865758263941,
         88.83113743502962,
         88.76581320743297,
-        89.0644270863922
+        89.0644270863922,
+        89.03450275442157
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -3291,7 +3291,6 @@
     {
       "label": "Php Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3320,7 +3319,8 @@
         93,
         116,
         131,
-        143
+        143,
+        153
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -3334,7 +3334,6 @@
     {
       "label": "Php Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3363,7 +3362,8 @@
         72.04301075268818,
         73.27586206896551,
         74.04580152671755,
-        74.12587412587412
+        74.12587412587412,
+        75.16339869281046
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -3388,7 +3388,6 @@
         null,
         null,
         null,
-        null,
         389,
         389,
         389,
@@ -3408,7 +3407,8 @@
         406,
         406,
         406,
-        406
+        406,
+        407
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -3431,7 +3431,6 @@
         null,
         null,
         null,
-        null,
         78.66323907455013,
         78.66323907455013,
         78.66323907455013,
@@ -3451,7 +3450,8 @@
         76.10837438423646,
         76.10837438423646,
         76.10837438423646,
-        76.10837438423646
+        76.10837438423646,
+        75.92137592137593
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -3476,7 +3476,6 @@
         null,
         null,
         null,
-        null,
         20,
         20,
         20,
@@ -3496,7 +3495,8 @@
         23,
         23,
         23,
-        23
+        23,
+        24
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -3510,7 +3510,6 @@
     {
       "label": "Php Codegen Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3539,7 +3538,8 @@
         39.130434782608695,
         43.47826086956522,
         43.47826086956522,
-        43.47826086956522
+        43.47826086956522,
+        41.66666666666667
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -3555,7 +3555,6 @@
     {
       "label": "C# Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3584,7 +3583,8 @@
         3245,
         3307,
         3400,
-        3477
+        3477,
+        3552
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -3598,7 +3598,6 @@
     {
       "label": "C# Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3627,7 +3626,8 @@
         55.685670261941446,
         55.63955246446931,
         55.294117647058826,
-        55.10497555363819
+        55.10497555363819,
+        54.92680180180181
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -3643,7 +3643,6 @@
     {
       "label": "C# Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3672,7 +3671,8 @@
         15928,
         16230,
         16545,
-        16897
+        16897,
+        17280
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -3686,7 +3686,6 @@
     {
       "label": "C# Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3715,7 +3714,8 @@
         88.95655449522852,
         89.07578558225508,
         89.03596252644303,
-        89.08682014558798
+        89.08682014558798,
+        88.96412037037037
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -3731,7 +3731,6 @@
     {
       "label": "C# Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3760,7 +3759,8 @@
         113,
         130,
         154,
-        190
+        190,
+        213
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -3774,7 +3774,6 @@
     {
       "label": "C# Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3803,7 +3802,8 @@
         74.33628318584071,
         69.23076923076923,
         70.12987012987013,
-        71.05263157894737
+        71.05263157894737,
+        69.01408450704226
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -3819,7 +3819,6 @@
     {
       "label": "C# Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3848,7 +3847,8 @@
         248,
         251,
         250,
-        248
+        248,
+        250
       ],
       "backgroundColor": "#52c41a80",
       "borderColor": "#52c41a",
@@ -3862,7 +3862,6 @@
     {
       "label": "C# Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -3891,7 +3890,8 @@
         60.88709677419355,
         60.95617529880478,
         61.6,
-        61.693548387096776
+        61.693548387096776,
+        61.199999999999996
       ],
       "backgroundColor": "#52c41a",
       "borderColor": "#52c41a",
@@ -3916,8 +3916,8 @@
         null,
         null,
         null,
-        null,
         5,
+        6,
         6,
         6,
         6,
@@ -3959,7 +3959,7 @@
         null,
         null,
         null,
-        null,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -4004,7 +4004,6 @@
         null,
         null,
         null,
-        null,
         360,
         358,
         375,
@@ -4024,7 +4023,8 @@
         676,
         696,
         727,
-        754
+        754,
+        795
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -4038,7 +4038,6 @@
     {
       "label": "C++ Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4067,7 +4066,8 @@
         43.19526627218935,
         44.10919540229885,
         44.01650618982118,
-        43.36870026525199
+        43.36870026525199,
+        44.27672955974843
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -4083,7 +4083,6 @@
     {
       "label": "C++ Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4112,7 +4111,8 @@
         11962,
         12121,
         12328,
-        12360
+        12360,
+        12579
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -4126,7 +4126,6 @@
     {
       "label": "C++ Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4155,7 +4154,8 @@
         81.14027754556095,
         81.09066908670903,
         81.22972096041532,
-        81.09223300970874
+        81.09223300970874,
+        81.16702440575563
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -4171,7 +4171,6 @@
     {
       "label": "C++ Cursor Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4200,7 +4199,8 @@
         128,
         141,
         146,
-        163
+        163,
+        176
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -4214,7 +4214,6 @@
     {
       "label": "C++ Cursor Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4243,7 +4242,8 @@
         74.21875,
         71.63120567375887,
         69.17808219178082,
-        68.09815950920245
+        68.09815950920245,
+        65.9090909090909
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -4259,7 +4259,6 @@
     {
       "label": "C++ Devin Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4288,6 +4287,7 @@
         807,
         807,
         810,
+        810,
         810
       ],
       "backgroundColor": "#52c41a80",
@@ -4302,7 +4302,6 @@
     {
       "label": "C++ Devin Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4331,6 +4330,7 @@
         56.50557620817844,
         56.50557620817844,
         56.54320987654321,
+        56.54320987654321,
         56.54320987654321
       ],
       "backgroundColor": "#52c41a",
@@ -4356,7 +4356,6 @@
         null,
         null,
         null,
-        null,
         17,
         17,
         17,
@@ -4376,6 +4375,7 @@
         20,
         20,
         20,
+        21,
         21
       ],
       "backgroundColor": "#daa52080",
@@ -4399,7 +4399,6 @@
         null,
         null,
         null,
-        null,
         29.411764705882355,
         29.411764705882355,
         29.411764705882355,
@@ -4419,6 +4418,7 @@
         30.0,
         30.0,
         30.0,
+        33.33333333333333,
         33.33333333333333
       ],
       "backgroundColor": "#daa520",
@@ -4435,7 +4435,6 @@
     {
       "label": "Rust Copilot Volume",
       "data": [
-        189,
         209,
         234,
         245,
@@ -4464,7 +4463,8 @@
         835,
         863,
         933,
-        977
+        977,
+        1012
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -4478,7 +4478,6 @@
     {
       "label": "Rust Copilot Success %",
       "data": [
-        61.904761904761905,
         57.41626794258373,
         61.53846153846154,
         64.08163265306122,
@@ -4507,7 +4506,8 @@
         64.43113772455091,
         63.383545770567785,
         62.91532690246516,
-        61.31013306038895
+        61.31013306038895,
+        60.96837944664032
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -4523,7 +4523,6 @@
     {
       "label": "Rust Codex Volume",
       "data": [
-        5914,
         6289,
         6767,
         7450,
@@ -4552,7 +4551,8 @@
         15086,
         15605,
         15971,
-        16166
+        16166,
+        16387
       ],
       "backgroundColor": "#ff6b6b80",
       "borderColor": "#ff6b6b",
@@ -4566,7 +4566,6 @@
     {
       "label": "Rust Codex Success %",
       "data": [
-        84.05478525532635,
         84.35363332803307,
         84.91207329688193,
         85.95973154362416,
@@ -4595,7 +4594,8 @@
         86.41124221132176,
         86.51714194168537,
         86.6257591885292,
-        86.6819250278362
+        86.6819250278362,
+        86.70287422957223
       ],
       "backgroundColor": "#ff6b6b",
       "borderColor": "#ff6b6b",
@@ -4611,7 +4611,6 @@
     {
       "label": "Rust Cursor Volume",
       "data": [
-        29,
         38,
         40,
         41,
@@ -4640,7 +4639,8 @@
         318,
         332,
         350,
-        375
+        375,
+        395
       ],
       "backgroundColor": "#9b59b680",
       "borderColor": "#9b59b6",
@@ -4654,7 +4654,6 @@
     {
       "label": "Rust Cursor Success %",
       "data": [
-        58.620689655172406,
         65.78947368421053,
         65.0,
         63.41463414634146,
@@ -4683,7 +4682,8 @@
         80.81761006289308,
         82.2289156626506,
         80.57142857142857,
-        81.06666666666666
+        81.06666666666666,
+        81.51898734177216
       ],
       "backgroundColor": "#9b59b6",
       "borderColor": "#9b59b6",
@@ -4699,7 +4699,6 @@
     {
       "label": "Rust Devin Volume",
       "data": [
-        950,
         953,
         957,
         963,
@@ -4728,6 +4727,7 @@
         985,
         988,
         993,
+        993,
         993
       ],
       "backgroundColor": "#52c41a80",
@@ -4742,7 +4742,6 @@
     {
       "label": "Rust Devin Success %",
       "data": [
-        67.89473684210526,
         67.68100734522561,
         67.50261233019855,
         67.1858774662513,
@@ -4771,6 +4770,7 @@
         68.62944162436548,
         68.42105263157895,
         68.58006042296071,
+        68.58006042296071,
         68.58006042296071
       ],
       "backgroundColor": "#52c41a",
@@ -4787,7 +4787,6 @@
     {
       "label": "Rust Codegen Volume",
       "data": [
-        23,
         23,
         23,
         23,
@@ -4816,7 +4815,8 @@
         43,
         43,
         43,
-        43
+        43,
+        44
       ],
       "backgroundColor": "#daa52080",
       "borderColor": "#daa520",
@@ -4830,7 +4830,6 @@
     {
       "label": "Rust Codegen Success %",
       "data": [
-        52.17391304347826,
         52.17391304347826,
         52.17391304347826,
         52.17391304347826,
@@ -4859,7 +4858,8 @@
         58.139534883720934,
         58.139534883720934,
         58.139534883720934,
-        58.139534883720934
+        58.139534883720934,
+        56.81818181818182
       ],
       "backgroundColor": "#daa520",
       "borderColor": "#daa520",
@@ -4875,7 +4875,6 @@
     {
       "label": "F# Copilot Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4904,7 +4903,8 @@
         24,
         25,
         25,
-        27
+        27,
+        28
       ],
       "backgroundColor": "#87ceeb80",
       "borderColor": "#87ceeb",
@@ -4918,7 +4918,6 @@
     {
       "label": "F# Copilot Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4947,7 +4946,8 @@
         25.0,
         32.0,
         32.0,
-        29.629629629629626
+        29.629629629629626,
+        28.57142857142857
       ],
       "backgroundColor": "#87ceeb",
       "borderColor": "#87ceeb",
@@ -4963,7 +4963,6 @@
     {
       "label": "F# Codex Volume",
       "data": [
-        null,
         null,
         null,
         null,
@@ -4992,6 +4991,7 @@
         45,
         47,
         48,
+        48,
         48
       ],
       "backgroundColor": "#ff6b6b80",
@@ -5006,7 +5006,6 @@
     {
       "label": "F# Codex Success %",
       "data": [
-        null,
         null,
         null,
         null,
@@ -5035,6 +5034,7 @@
         82.22222222222221,
         82.97872340425532,
         83.33333333333334,
+        83.33333333333334,
         83.33333333333334
       ],
       "backgroundColor": "#ff6b6b",
@@ -5060,10 +5060,10 @@
         null,
         null,
         null,
-        null,
         0,
         0,
         0,
+        1,
         1,
         1,
         1,
@@ -5103,10 +5103,10 @@
         null,
         null,
         null,
-        null,
         0,
         0,
         0,
+        0.0,
         0.0,
         0.0,
         0.0,
@@ -5148,7 +5148,7 @@
         null,
         null,
         null,
-        null,
+        0,
         0,
         0,
         0,
@@ -5191,7 +5191,7 @@
         null,
         null,
         null,
-        null,
+        0,
         0,
         0,
         0,
@@ -5236,7 +5236,7 @@
         null,
         null,
         null,
-        null,
+        0,
         0,
         0,
         0,
@@ -5279,7 +5279,7 @@
         null,
         null,
         null,
-        null,
+        0,
         0,
         0,
         0,
