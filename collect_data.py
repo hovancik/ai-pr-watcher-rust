@@ -47,6 +47,10 @@ AGENTS = {
     'codegen': {
         'total': 'is:pr+author:codegen-sh[bot]',
         'merged': 'is:pr+author:codegen-sh[bot]+is:merged'
+    },
+    'claude': {
+        'total': 'is:pr+author:claude[bot]',
+        'merged': 'is:pr+author:claude[bot]+is:merged'
     }
 }
 

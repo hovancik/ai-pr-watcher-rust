@@ -201,6 +201,30 @@
               <span id="codegen-rate">Loading...</span>
             </td>
           </tr>
+          <tr data-agent="claude">
+            <td class="agent-cell">
+              <div class="agent-info">
+                <span class="agent-icon" style="background-color: #d97706"></span>
+                <a href="https://code.claude.com/docs/en/github-actions" target="_blank" class="agent-link">Claude
+                  Code</a>
+              </div>
+            </td>
+            <td class="metric-cell">
+              <a href="https://github.com/search?q=author:claude[bot]&type=pullrequests" target="_blank"
+                class="metric-link">
+                <span id="claude-total">Loading...</span>
+              </a>
+            </td>
+            <td class="metric-cell">
+              <a href="https://github.com/search?q=author:claude[bot]+is:merged&type=pullrequests" target="_blank"
+                class="metric-link">
+                <span id="claude-merged">Loading...</span>
+              </a>
+            </td>
+            <td class="rate-cell">
+              <span id="claude-rate">Loading...</span>
+            </td>
+          </tr>
         </tbody>
       </table>
     </section>
@@ -268,6 +292,9 @@
               <button id="toggleCodegen" class="toggle-btn active" data-agent="codegen">
                 <span class="toggle-icon" style="background-color: #daa520"></span>Codegen
               </button>
+              <button id="toggleClaude" class="toggle-btn active" data-agent="claude">
+                <span class="toggle-icon" style="background-color: #d97706"></span>Claude Code
+              </button>
             </div>
           </div>
           <div class="control-section">
@@ -298,7 +325,7 @@
 
     <footer>
       <p>
-        Last updated: <span id="last-updated">March 19, 2026 00:12 UTC</span>
+        Last updated: <span id="last-updated">March 19, 2026 09:51 UTC</span>
       </p>
       <p>
         <a href="https://github.com/hovancik/ai-pr-watcher-rust">View on GitHub</a>
@@ -451,7 +478,7 @@
 
       // Get the latest data point (last index)
       const latestIndex = chartData.labels.length - 1;
-      const agents = ["copilot", "codex", "cursor", "devin", "codegen"];
+      const agents = ["copilot", "codex", "cursor", "devin", "codegen", "claude"];
 
       // Use selected language or default to "all"
       agents.forEach((agent) => {
@@ -531,6 +558,10 @@
         // Codegen uses author search
         totalLink.href = `https://github.com/search?q=author:codegen-sh[bot]${languageFilter}&type=pullrequests`;
         mergedLink.href = `https://github.com/search?q=author:codegen-sh[bot]+is:merged${languageFilter}&type=pullrequests`;
+      } else if (agent === 'claude') {
+        // Claude uses author search
+        totalLink.href = `https://github.com/search?q=author:claude[bot]${languageFilter}&type=pullrequests`;
+        mergedLink.href = `https://github.com/search?q=author:claude[bot]+is:merged${languageFilter}&type=pullrequests`;
       } else {
         // Copilot, Codex, Cursor use head branch search
         totalLink.href = `https://github.com/search?q=is:pr+head:${agent}/${languageFilter}&type=pullrequests`;
