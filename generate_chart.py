@@ -35,7 +35,7 @@ def read_csv_data(csv_file):
             
             # Store agent data for this language and date
             agents_data = {}
-            for agent in ['copilot', 'codex', 'cursor', 'devin', 'codegen']:
+            for agent in ['copilot', 'codex', 'cursor', 'devin', 'codegen', 'claude']:
                 total_key = f"{agent}_total"
                 merged_key = f"{agent}_merged"
                 
@@ -73,14 +73,15 @@ def generate_chart_data(data_by_date):
         display_labels.append(date_obj.strftime("%b %d"))  # "Jun 20" format
     
     languages = ['all', 'javascript', 'typescript', 'python', 'java', 'ruby', 'go', 'php', 'c%23', 'c%2B%2B', 'rust', 'f%23']
-    agents = ['copilot', 'codex', 'cursor', 'devin', 'codegen']
+    agents = ['copilot', 'codex', 'cursor', 'devin', 'codegen', 'claude']
     
     colors = {
         'copilot': '#87ceeb',
         'codex': '#ff6b6b',
         'cursor': '#9b59b6',
         'devin': '#52c41a',
-        'codegen': '#daa520'
+        'codegen': '#daa520',
+        'claude': '#d97706'
     }
     
     datasets = []
